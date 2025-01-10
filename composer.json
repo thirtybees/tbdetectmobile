@@ -15,6 +15,6 @@
         }
     },
     "require": {
-        "mobiledetect/mobiledetectlib": "4.8.07"
+        "mobiledetect/mobiledetectlib": "^4.8"
     }
 }
