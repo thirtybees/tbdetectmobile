@@ -27,7 +27,7 @@ class TbDetectMobile extends Module
     /**
      *
      */
-    const MIN_PHP_VERSION = '7.4';
+    const MIN_PHP_VERSION = '8.0';
 
     /**
      * @throws PrestaShopException
@@ -36,7 +36,7 @@ class TbDetectMobile extends Module
     {
         $this->name = 'tbdetectmobile';
         $this->tab = 'administration';
-        $this->version = '1.0.0';
+        $this->version = '1.1.0';
         $this->author = 'thirty bees';
         $this->controllers = [];
         $this->bootstrap = true;

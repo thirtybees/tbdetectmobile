@@ -11,10 +11,10 @@
     "config": {
         "platform-check": false,
         "platform": {
-            "php": "7.4"
+            "php": "8.0"
         }
     },
     "require": {
-        "mobiledetect/mobiledetectlib": "^3.74"
+        "mobiledetect/mobiledetectlib": "4.8.07"
     }
 }
