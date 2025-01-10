@@ -1,0 +1,20 @@
+{
+    "name": "thirtybees/tbdetectmobile",
+    "description": "This module implements mobile detection functionality",
+    "license": "AFL 3.0",
+    "authors": [
+        {
+            "name": "thirtybees",
+            "email": "contact@thirtybees.com"
+        }
+    ],
+    "config": {
+        "platform-check": false,
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "require": {
+        "mobiledetect/mobiledetectlib": "^3.74"
+    }
+}
