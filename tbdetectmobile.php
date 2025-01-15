@@ -76,6 +76,7 @@ class TbDetectMobile extends Module
                 return [
                     'isMobile' => $mobileDetect->isMobile(),
                     'isTablet' => $mobileDetect->isTablet(),
+                    'userAgent' => $mobileDetect->getUserAgent(),
                 ];
             } catch (Throwable $e) {}
         }
